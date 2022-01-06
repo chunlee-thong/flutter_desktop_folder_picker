@@ -5,13 +5,13 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_desktop_folder_picker'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter project.'
+  s.summary          = 'Flutter folde picker plugin'
   s.description      = <<-DESC
-A new Flutter project.
+  A Flutter plugin for picking folder in Desktop (Window and MacOS).
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'http://chunleethong.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Chunlee Thong' => 'hi@chunleethong.com' }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'

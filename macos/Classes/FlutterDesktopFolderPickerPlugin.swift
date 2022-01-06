@@ -22,7 +22,7 @@ public class FlutterDesktopFolderPickerPlugin: NSObject, FlutterPlugin {
 
   public func openDialog() -> String? {
     let dialog = NSOpenPanel();
-    dialog.title                   = "Choose single directory | Our Code World";
+    dialog.title                   = "Choose single directory";
     dialog.showsResizeIndicator    = true;
     dialog.showsHiddenFiles        = false;
     dialog.canChooseFiles = false;
