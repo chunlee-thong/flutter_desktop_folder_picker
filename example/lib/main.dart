@@ -32,8 +32,7 @@ class _MyAppState extends State<MyApp> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
-            String? path =
-                await FlutterDesktopFolderPicker.openFolderPickerDialog;
+            String? path = await FlutterDesktopFolderPicker.openFolderPickerDialog();
             setState(() {
               _path = path;
             });
