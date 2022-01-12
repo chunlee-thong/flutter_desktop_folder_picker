@@ -58,7 +58,7 @@ void FlutterDesktopFolderPickerPlugin::HandleMethodCall(
     std::unique_ptr<flutter::MethodResult<flutter::EncodableValue>> result) {
   if (method_call.method_name().compare("openFolderDialog") == 0) {
     //TODO: implement folder picker on Window
-    result->Success(flutter::EncodableValue(version_stream.str()));
+    //result->Success(flutter::EncodableValue(version_stream.str()));
   } else {
     result->NotImplemented();
   }

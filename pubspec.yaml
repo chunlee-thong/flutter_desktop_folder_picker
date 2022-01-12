@@ -1,17 +1,17 @@
 name: flutter_desktop_folder_picker
 description: A Flutter plugin for picking folder in Desktop (Window and MacOS).
 version: 0.0.1
-homepage:
+homepage: https://github.com/chunlee-thong/flutter_desktop_folder_picker
 
 environment:
-  sdk: ">=2.15.1 <3.0.0"
+  sdk: ">=2.14.0 <3.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
   filepicker_windows: ^2.0.1
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

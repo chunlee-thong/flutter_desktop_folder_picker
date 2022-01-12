@@ -10,11 +10,11 @@ Add this to pubspec.yaml
 dependencies:
   flutter_desktop_folder_picker: ^0.0.1
 ```
+
 ### Progress
 
 - [x] MacOS
-- [ ] Window
-
+- [x] Window
 
 ### How to use
 
